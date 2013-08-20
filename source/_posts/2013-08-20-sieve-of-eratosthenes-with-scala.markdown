@@ -86,7 +86,7 @@ println(sieveOfEratosthenes(Range(1, 121).toList))
 ということでググってみると、  
 [Sieve of Eratosthenes in Scala](http://mogproject.blogspot.jp/2013/05/sieve-of-eratosthenes-in-scala.html)  
 こちらの記事を発見。おお、Stream使うとこんなにもスッキリ書けるんですね。確かに衝撃的。  
-まだまだScala力が足りませんなぁ。
+まだまだScala力が足りません。
 
 
 
