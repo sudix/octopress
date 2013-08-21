@@ -20,8 +20,5 @@
                  title="はてなブックマーク - {{ site.url }}{{ page.url }}" />
           </a>
         </h1>
-        {% unless page.sharing == false %}
-            {% include post/sharing.html %}
-        {% endunless %}
         <div class="entry-content" itemprop="articleBody">{{ content }}</div>
 {% endif %}
