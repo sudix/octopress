@@ -12,3 +12,14 @@ single: true
     <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
 </section>
 {% endif %}
+
+<ul class="posts">  
+	{% for post in site.posts limit:20 %}  
+	   <li>  
+		   <span>{{ post.date | date_to_string }}</span> &raquo;  
+		   <a href="{{ BASE_PATH }}{{ post.url }}">  
+		   {{ post.title }}</a>  
+	   </li>  
+	{% endfor %}  
+</ul>
+
