@@ -3,7 +3,7 @@ layout: post
 title: "[coffeescript] 標準偏差を使って異常っぽい値を検知してみる"
 date: 2013-08-23 11:02
 comments: true
-categories: 
+categories: coffeescript
 ---
 
 日々変わる数字があって、たまに異常に減ったり増えたりする場合があり、
