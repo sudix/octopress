@@ -14,6 +14,7 @@ $solar-violet:    #6c71c4 !default;
 $solar-blue:      #268bd2 !default;
 $solar-cyan:      #2aa198 !default;
 $solar-green:     #859900 !default;
+$code-bg-color:   #eee    !default;
 
 $solarized: light !default;
 
@@ -69,8 +70,10 @@ article{
 
 figure.code{
 	border: 1px solid $pre-border;
+	border-radius: 10px 10px 10px 10px;
 	margin-top: 10px;
 	padding: 5px 15px;
+	background: $code-bg-color;
 	figcaption{
 		font-size: 0.9em;
 		position: relative;
@@ -90,7 +93,8 @@ figure.code{
 		}
 	}
 	code, pre{
-		background: none;
+		/* background: none; */
+		background: $code-bg-color;
 		border: none;
 		padding: 0;
 		margin: 0;
@@ -114,6 +118,7 @@ figure.code{
 		}
 	}
 	td.code{
+	    background: $code-bg-color;
 		width: 100%;
 		padding-left: 15px;
 	}

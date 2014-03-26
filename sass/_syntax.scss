@@ -210,7 +210,7 @@ pre, .highlight, .gist-highlight {
   @extend .pre-code; background: #000;
 }
 figure.code {
-  background: none;
+  background: $code-bg-color !important;
   padding: 0;
   border: 0;
   margin-bottom: 1.5em;
